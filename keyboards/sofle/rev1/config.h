@@ -1,3 +1,4 @@
+
 #pragma once
 
 /* USB Device descriptor parameter */
@@ -18,6 +19,7 @@
 #define MATRIX_COL_PINS { F6, F7, B1, B3, B2, B6 }
 #define DIODE_DIRECTION COL2ROW
 
+
 #define TAPPING_TERM 100
 #define DEBOUNCE 5
 
@@ -28,7 +30,9 @@
 #define ENCODERS_PAD_B_RIGHT { F5 }
 #define ENCODER_RESOLUTION 2
 
+
 #define TAP_CODE_DELAY 10
+
 /* communication between sides */
 #define USE_SERIAL
 #define SERIAL_USE_MULTI_TRANSACTION
@@ -36,4 +40,3 @@
 
 #define NO_ACTION_MACRO
 #define NO_ACTION_FUNCTION
-
